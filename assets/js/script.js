@@ -3,7 +3,6 @@ function newChild(event) { //here it set who is the main section from the button
     let name = window.prompt('escolha um nome')
     let color = window.prompt('Escolha uma cor para o elemento filho')
     let child = factoryChild(name, color);
-    console.log(father)
     father.querySelector('.children').appendChild(child);
 }
 
