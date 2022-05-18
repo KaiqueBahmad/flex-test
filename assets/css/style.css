@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+body {
+    background-color: rgb(37, 37, 37);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainFrame {
+    background-color: rgb(124, 10, 10);
+    border: 3px solid black;
+    height: 90%;
+    width: 100%;
+}
+.children {
+    display: flex;
+    height: 75%;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.children > * {
+    margin: 3px;
+}
+
+.settings {
+    height: 30%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.newChild {
+    height: 80%;
+    width: 14%;
+    margin: 2px;
+}
+.newChild b {
+    overflow: hidden;
+}
